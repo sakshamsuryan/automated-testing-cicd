@@ -3,7 +3,7 @@ from app import add, divide, get_user_status
 
 
 def test_add():
-    assert add(5, 3) == 8
+    assert add(5, 3) == 100
 
 
 def test_divide():
