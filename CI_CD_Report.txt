@@ -1,0 +1,48 @@
+PRACTICAL: AUTOMATED TESTING IN CI/CD PIPELINE
+
+1. Objective:
+To implement automated testing in a CI/CD pipeline
+using unit tests, integration tests and GitHub Actions.
+
+2. Tools Used:
+- Python 3.12
+- Pytest
+- Flask
+- Docker
+- Git and GitHub
+- GitHub Actions
+
+3. Implementation:
+- Developed a Python application.
+- Created 5 unit tests.
+- Created 2 integration tests.
+- Configured GitHub Actions workflow.
+- Built and deployed the application using Docker.
+
+4. Pipeline Stages:
+- Checkout source code.
+- Set up Python environment.
+- Install dependencies.
+- Execute automated tests.
+- Build Docker image.
+- Deploy application.
+- Verify deployment.
+
+5. Pipeline Gate Demonstration:
+Intentionally modified a test to produce an error.
+The test job failed and deployment was skipped.
+Restored the correct test and verified successful execution.
+
+6. Observations:
+- All 7 automated tests passed.
+- Unit and integration testing worked successfully.
+- Docker image was built successfully.
+- Application deployment was verified.
+- Failed tests prevented deployment.
+- Successful tests allowed deployment.
+
+7. Conclusion:
+Successfully implemented automated testing in a
+CI/CD pipeline using GitHub Actions, Pytest and Docker.
+The pipeline ensures that deployment occurs only
+after successful automated testing.
